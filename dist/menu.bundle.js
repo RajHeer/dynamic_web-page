@@ -16,7 +16,7 @@
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\nfunction menu() {\n    const div = document.createElement('div');\n    \n    div.innerText = \"MENU\";\n    \n    return div;\n}\n\n//# sourceURL=webpack://dynamic_web-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menuSection)\n/* harmony export */ });\nfunction menuSection() {\n    const sectionMenu = document.createElement('section');\n    \n    return sectionMenu;\n}\n\n\n//# sourceURL=webpack://dynamic_web-page/./src/menu.js?");
 
 /***/ })
 

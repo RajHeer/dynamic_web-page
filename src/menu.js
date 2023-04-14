@@ -1,7 +1,5 @@
-export default function menu() {
-    const div = document.createElement('div');
+export default function menuSection() {
+    const sectionMenu = document.createElement('section');
     
-    div.innerText = "MENU";
-    
-    return div;
+    return sectionMenu;
 }

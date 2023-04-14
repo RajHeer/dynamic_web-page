@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contact)\n/* harmony export */ });\nfunction contact() {\n    const div = document.createElement('div');\n    \n    div.innerText = \"CONTACT\";\n    \n    return div;\n}\n\n//# sourceURL=webpack://dynamic_web-page/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contactSection)\n/* harmony export */ });\nfunction contactSection() {\n    const sectionContact = document.createElement('section');\n    \n    return sectionContact;\n}\n\n\n//# sourceURL=webpack://dynamic_web-page/./src/contact.js?");
 
 /***/ })
 

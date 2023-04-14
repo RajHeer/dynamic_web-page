@@ -1,7 +1,5 @@
-export default function contact() {
-    const div = document.createElement('div');
+export default function contactSection() {
+    const sectionContact = document.createElement('section');
     
-    div.innerText = "CONTACT";
-    
-    return div;
+    return sectionContact;
 }

@@ -1,7 +1,5 @@
-export default function about() {
-    const div = document.createElement('div');
+export default function aboutSection() {
+    const sectionAbout = document.createElement('section');
     
-    div.innerText = "ABOUT";
-    
-    return div;
+    return sectionAbout;
 }
