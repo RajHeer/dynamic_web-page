@@ -1,18 +1,21 @@
-import './style.css';
+import "./style.css";
 import about from "./about";
 import menu from "./menu";
 import contact from "./contact";
 
 function component() {
-    const main = document.createElement('main');
-    const header = document.createElement('header');
+    // CREATE ELEMENTS//
+    const main = document.createElement("main");
+    const header = document.createElement("header");
+    const nav = document.createElement("nav");
 
+    // ADD CLASS
     main.appendChild(header);
-    header.innerText = "HEADER";
+    header.appendChild(nav);
 
-    header.appendChild( about() );
-    header.appendChild( menu() );
-    header.appendChild( contact() );
+    nav.appendChild( about() );
+    nav.appendChild( menu() );
+    nav.appendChild( contact() );
     
     return main;
   }
