@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ about)\n/* harmony export */ });\nfunction about() {\n    const div = document.createElement('div');\n    \n    div.innerText = \"ABOUT\";\n    \n    return div;\n}\n\n//# sourceURL=webpack://dynamic_web-page/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ aboutSection)\n/* harmony export */ });\nfunction aboutSection() {\n    const sectionAbout = document.createElement('section');\n    \n    return sectionAbout;\n}\n\n\n//# sourceURL=webpack://dynamic_web-page/./src/about.js?");
 
 /***/ }),
 
@@ -126,7 +126,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contact)\n/* harmony export */ });\nfunction contact() {\n    const div = document.createElement('div');\n    \n    div.innerText = \"CONTACT\";\n    \n    return div;\n}\n\n//# sourceURL=webpack://dynamic_web-page/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contactSection)\n/* harmony export */ });\nfunction contactSection() {\n    const sectionContact = document.createElement('section');\n    \n    return sectionContact;\n}\n\n\n//# sourceURL=webpack://dynamic_web-page/./src/contact.js?");
+
+/***/ }),
+
+/***/ "./src/header.js":
+/*!***********************!*\
+  !*** ./src/header.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ headerWithNav)\n/* harmony export */ });\nfunction headerWithNav() {\n    const header = document.createElement(\"header\");\n    const nav = document.createElement(\"nav\");\n\n    const divAbout = document.createElement('div');\n    divAbout.innerText = \"ABOUT\";\n    const divMenu = document.createElement('div');\n    divMenu.innerText = \"MENU\";\n    const divContact = document.createElement('div');\n    divContact.innerText = \"MENU\";\n\n    nav.appendChild(divAbout);\n    nav.appendChild(divMenu);\n    nav.appendChild(divContact);\n\n    header.appendChild(nav);\n    \n    return header;\n}\n\n\n//# sourceURL=webpack://dynamic_web-page/./src/header.js?");
 
 /***/ }),
 
@@ -136,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./about */ \"./src/about.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\n\n\n\n\nfunction component() {\n    // CREATE ELEMENTS//\n    const main = document.createElement(\"main\");\n    const header = document.createElement(\"header\");\n    const nav = document.createElement(\"nav\");\n\n    // ADD CLASS\n    main.appendChild(header);\n    header.appendChild(nav);\n\n    nav.appendChild( (0,_about__WEBPACK_IMPORTED_MODULE_1__[\"default\"])() );\n    nav.appendChild( (0,_menu__WEBPACK_IMPORTED_MODULE_2__[\"default\"])() );\n    nav.appendChild( (0,_contact__WEBPACK_IMPORTED_MODULE_3__[\"default\"])() );\n    \n    return main;\n  }\n  \n  document.body.appendChild(component());\n\n//# sourceURL=webpack://dynamic_web-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about */ \"./src/about.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact */ \"./src/contact.js\");\n\n\n\n\n\n\nfunction component() {\n\n    const main = document.createElement(\"main\");\n    \n    main.appendChild( (0,_header__WEBPACK_IMPORTED_MODULE_1__[\"default\"])() );\n    \n    return main;\n  }\n  \n  document.body.appendChild(component());\n  \n\n//# sourceURL=webpack://dynamic_web-page/./src/index.js?");
 
 /***/ }),
 
@@ -146,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\nfunction menu() {\n    const div = document.createElement('div');\n    \n    div.innerText = \"MENU\";\n    \n    return div;\n}\n\n//# sourceURL=webpack://dynamic_web-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menuSection)\n/* harmony export */ });\nfunction menuSection() {\n    const sectionMenu = document.createElement('section');\n    \n    return sectionMenu;\n}\n\n\n//# sourceURL=webpack://dynamic_web-page/./src/menu.js?");
 
 /***/ })
 

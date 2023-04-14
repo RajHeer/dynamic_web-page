@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/about.js":
-/*!**********************!*\
-  !*** ./src/about.js ***!
-  \**********************/
+/***/ "./src/header.js":
+/*!***********************!*\
+  !*** ./src/header.js ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ aboutSection)\n/* harmony export */ });\nfunction aboutSection() {\n    const sectionAbout = document.createElement('section');\n    \n    return sectionAbout;\n}\n\n\n//# sourceURL=webpack://dynamic_web-page/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ headerWithNav)\n/* harmony export */ });\nfunction headerWithNav() {\n    const header = document.createElement(\"header\");\n    const nav = document.createElement(\"nav\");\n\n    const divAbout = document.createElement('div');\n    divAbout.innerText = \"ABOUT\";\n    const divMenu = document.createElement('div');\n    divMenu.innerText = \"MENU\";\n    const divContact = document.createElement('div');\n    divContact.innerText = \"MENU\";\n\n    nav.appendChild(divAbout);\n    nav.appendChild(divMenu);\n    nav.appendChild(divContact);\n\n    header.appendChild(nav);\n    \n    return header;\n}\n\n\n//# sourceURL=webpack://dynamic_web-page/./src/header.js?");
 
 /***/ })
 
@@ -60,7 +60,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/about.js"](0, __webpack_exports__, __webpack_require__);
+/******/ 	__webpack_modules__["./src/header.js"](0, __webpack_exports__, __webpack_require__);
 /******/ 	
 /******/ })()
 ;
