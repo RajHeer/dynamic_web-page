@@ -1,3 +1,8 @@
+@font-face {
+    font-family: sw;
+    src: url(./sw.ttf);
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +28,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    font-family: sw;
+    margin-left: 2rem;
 }
 
 nav {
