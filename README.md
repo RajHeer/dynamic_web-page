@@ -7,6 +7,6 @@
 2. Task runner scripts added to 'watch' and update bundles and for build via npm.
 3. Modules wired up to index.js and entry points and output set in webpack config.
 
-##
+## to implement
 1. Build out site and style.
 2. Functionality for 'tabbed'/nav browsing for different sections.
