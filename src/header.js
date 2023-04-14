@@ -3,7 +3,7 @@ export default function headerWithNav() {
     const h1 = document.createElement("h1");
     const nav = document.createElement("nav");
 
-    h1.innerText = "Mos Eisely Cantina"
+    h1.innerText = "Mos Eisely Cantina";
     
     // NAV TABS
     const divAbout = document.createElement('div');
@@ -11,7 +11,7 @@ export default function headerWithNav() {
     const divMenu = document.createElement('div');
     divMenu.innerText = "MENU";
     const divContact = document.createElement('div');
-    divContact.innerText = "MENU";
+    divContact.innerText = "CONTACT";
 
     nav.appendChild(divAbout);
     nav.appendChild(divMenu);

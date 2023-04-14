@@ -9,9 +9,10 @@ function component() {
     const main = document.createElement("main");
     
     main.appendChild( headerWithNav() );
+
+    main.appendChild( about() );
     
     return main;
   }
   
   document.body.appendChild(component());
-  
