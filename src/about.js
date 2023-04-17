@@ -1,9 +1,9 @@
 export default function aboutSection() {
-    const sectionAbout = document.createElement('section');
-    const h2 = document.createElement('h2');
-    const article = document.createElement('article');
-    const p = document.createElement('p');
-    const blockquote = document.createElement('blockquote');
+    const sectionAbout = document.createElement("section");
+    const h2 = document.createElement("h2");
+    const article = document.createElement("article");
+    const p = document.createElement("p");
+    const blockquote = document.createElement("blockquote");
 
     h2.innerText = "About Mos Eisley Cantina (AKA Chalmun's Cantina)";
 

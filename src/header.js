@@ -30,7 +30,7 @@ export default function headerWithNav() {
     divContact.setAttribute("id", "contact")
     divContact.innerText = "CONTACT";
 
-    // APPEND ELEMENTS
+    // APPEND ELEMENTS TO NAV
     nav.appendChild(divAbout);
     nav.appendChild(divMenu);
     nav.appendChild(divContact);
@@ -38,7 +38,7 @@ export default function headerWithNav() {
     header.appendChild(h1);
     header.appendChild(nav);
 
-    // ADD LISTENERS
+    // ADD LISTENERS TO APPEND SECTIONS
     const divs = nav.querySelectorAll("div");
     divs.forEach(div => {
         div.addEventListener("click", (e) =>{
