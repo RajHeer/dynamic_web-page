@@ -19,7 +19,7 @@ export default function menuSection() {
         const li = document.createElement("li");
         li.innerText = item;
         ul.appendChild(li);
-    })
+    });
 
     p.appendChild(ul);
     article.appendChild(p);

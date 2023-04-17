@@ -42,6 +42,10 @@ export default function headerWithNav() {
     const divs = nav.querySelectorAll("div");
     divs.forEach(div => {
         div.addEventListener("click", (e) =>{
+            if ( document.querySelector("section") != null ) {
+                const section = document.querySelector("section");
+                section.remove();
+            }
             document.body.appendChild( modules[e.target.id] );
         })
     });
