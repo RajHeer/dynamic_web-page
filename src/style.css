@@ -47,11 +47,15 @@ nav {
 }
 
 nav > div {
-    border: whitesmoke solid 1px;
+    border: whitesmoke solid 2px;
     border-radius: 25%;
     margin: 0 5%;
     padding: 0.5rem;
     background-color: rgba(146, 39, 94, 0.37);
+}
+
+nav > div:hover {
+    border: rgba(146, 39, 94) solid 2px;
 }
 
 section {
