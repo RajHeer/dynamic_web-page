@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contactSection)\n/* harmony export */ });\nfunction contactSection() {\n    const sectionContact = document.createElement(\"section\");\n    const h2 = document.createElement(\"h2\");\n    const article = document.createElement(\"article\");\n    const p = document.createElement(\"p\");\n\n    h2.innerText = \"Contact and communications\";\n\n    p.innerText = \"Don't call us. We'll call you. Or shoot you.\"\n\n    article.appendChild(p);\n\n    sectionContact.appendChild(h2);\n    sectionContact.appendChild(article);\n    \n    return sectionContact;\n}\n\n\n//# sourceURL=webpack://dynamic_web-page/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contactSection)\n/* harmony export */ });\nfunction contactSection() {\n    const sectionContact = document.createElement(\"section\");\n    const h2 = document.createElement(\"h2\");\n    const article = document.createElement(\"article\");\n    const p = document.createElement(\"p\");\n\n    h2.innerText = \"Contact and communications\";\n\n    p.innerText = \"Don't bother. We'll call you. Or shoot...\"\n\n    article.appendChild(p);\n\n    sectionContact.appendChild(h2);\n    sectionContact.appendChild(article);\n    \n    return sectionContact;\n}\n\n\n//# sourceURL=webpack://dynamic_web-page/./src/contact.js?");
 
 /***/ })
 

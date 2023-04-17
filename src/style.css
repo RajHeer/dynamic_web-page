@@ -11,8 +11,10 @@
 
 body {
     font-family:'Roboto', sans-serif;
+    color: whitesmoke;
     width: 100vw;
-    height: auto;
+    height: 100vh;
+    background: center/80% url("./alexander-andrews-fsH1KjbdjE8-unsplash.jpg");
 }
 
 main {
@@ -23,8 +25,9 @@ main {
 }
 
 header {
-    border: solid red;
+    margin: 5vh auto;
     height: 20vh;
+    max-width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,11 +35,10 @@ header {
 
 h1 {
     font-family: sw;
-    margin-left: 2rem;
+    margin: 2rem;
 }
 
 nav {
-    border: solid green;
     margin-right: 2rem;
     width: 50%;
     display: flex;
@@ -45,14 +47,34 @@ nav {
 }
 
 nav > div {
-    border: blue solid;
+    border: whitesmoke solid 1px;
+    border-radius: 25%;
     margin: 0 5%;
     padding: 0.5rem;
+    background-color: rgba(146, 39, 94, 0.37);
 }
 
 section {
-    border: green solid;
+    background-color: rgba(146, 39, 94, 0.3);
     width: 90%;
     max-width: 450px;
-    margin: 10% auto;
+    margin: 15px auto;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+
+section > h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+li {
+    margin: 10px 20px;
+}
+
+blockquote {
+    font-style: italic;
 }

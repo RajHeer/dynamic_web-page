@@ -6,7 +6,7 @@ export default function contactSection() {
 
     h2.innerText = "Contact and communications";
 
-    p.innerText = "Don't call us. We'll call you. Or shoot you."
+    p.innerText = "Don't bother. We'll call you. Or shoot..."
 
     article.appendChild(p);
 
